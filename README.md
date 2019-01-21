@@ -31,8 +31,9 @@ filter option.
 Version History
 ===============
 1.1.0 Release (21.01.2019)
-* adding hard-coded IO function, needs new #define statements but is fully optional
+* adding hard-coded IO functions, need new #define statements but is fully optional
 * adding function sensorLEDsOff()
+* bugfix in digitalReadAverage()
 
 1.0.0 Release (17.01.2019)
 * Initial Release
