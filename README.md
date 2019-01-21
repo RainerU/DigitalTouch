@@ -1,4 +1,4 @@
-# DigitalTouch 1.0.0
+# DigitalTouch 1.1.0
 
 This library lets you measure the capacitive touch of an Arduino pin by measuring the charging-time
 of the sensor cap through an external high-ohmic resistor. An LED can be connected to the same pin.
@@ -30,6 +30,10 @@ filter option.
 
 Version History
 ===============
+1.1.0 Release (21.01.2019)
+* adding hard-coded IO function, needs new #define statements but is fully optional
+* adding function sensorLEDsOff()
+
 1.0.0 Release (17.01.2019)
 * Initial Release
 
